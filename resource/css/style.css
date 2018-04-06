@@ -641,6 +641,7 @@ tr + tr td label:after{
 }
 .content-item .img-container {
 	margin-bottom: 20px;
+	display: inline-grid;
 }
 .content-item .img-container img{
 	margin-bottom: 10px;
