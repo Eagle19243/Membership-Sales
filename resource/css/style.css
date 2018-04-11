@@ -2,7 +2,7 @@
                     Global Css
 ================================================*/                  
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif !important;
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
@@ -45,8 +45,9 @@ header {
 	/* margin-bottom: 50px; */
 }
 header label {
-	font-size: 18px;
+	font-size: 25px;
 	color: #000;
+	line-height: 32px;
 }
 header label span {
 	font-weight: normal;
@@ -591,7 +592,7 @@ tr + tr td label:after{
 	margin-bottom: 10px;
 }
 .container h2 {
-    font-size: 42px;
+    font-size: 44px;
     line-height: 50px;
     text-align: center;
     font-weight: 600;
@@ -605,16 +606,20 @@ tr + tr td label:after{
     margin: 0 10px 45px 10px;
 }
 .container h4 {
-
+	font-size: 30px;
+	text-align: center;
+	line-height: 1.1;
+    font-weight: 500;
+    margin: 0 10px 45px 10px;
 }
 .container h5 {
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: normal;
 	text-align: left;
-	line-height: 23px;
+	line-height: 32px;
 }
 .container .color-red{
-	color: #c6090b;
+	color: #C00000;
 }
 .container .b-700 {
 	font-weight: 700;
@@ -640,17 +645,35 @@ tr + tr td label:after{
 .container .font-size-14 {
 	font-size: 14px !important;
 }
+.container .w-p-60 {
+	width: 60%;
+}
+.container .bordered {
+	border-width: 2px;
+	border-color: #000;
+	border-style: solid;
+}
 .container .join-desc a {
 	color: #337ab7;
 }
+.ps-table {
+	margin: 80px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+}
 @media screen and (max-width:767px) {
 	.container h2 {
-		font-size: 30px;
-		line-height: 40px;
+		font-size: 34px;
+		line-height: 36px;
 	}
 	.container h3 {
 		font-size: 26px;
 		line-height: 30px;
+	}
+	.ps-table {
+		margin: 40px;
 	}
 }
 /*===========================
@@ -662,9 +685,9 @@ tr + tr td label:after{
 }
 .content-item .img-container {
 	margin-bottom: 20px;
-	display: inline-grid;
 }
 .content-item .img-container img{
+	max-width: 100%;
 	margin-bottom: 10px;
 	box-shadow: 6px 8px 40px -8px #2c2c2c;
 }
@@ -676,13 +699,11 @@ tr + tr td label:after{
 	margin-bottom: 10px;
 	box-shadow: 0px 0px 0px 0px #2c2c2c;
 }
-.content-item .table-bordered {
+.content-item .table-guide {
 	width: 100%;
+	border-width: 0px
 }
-.content-item .table-bordered td{
-	border: 1px solid #000 !important;
-}
-.content-item .table-bordered td li{
+.content-item .table-guide td li{
 	margin-left: 30px;
 }
 .content-item .btn-join {
