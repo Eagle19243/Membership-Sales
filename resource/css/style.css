@@ -40,9 +40,11 @@ img {
 	transition: all 0.1s ease-in-out 0s;
 }
 header {
-	padding: 30px 30px 0px;
 	color: #FFF;
 	/* margin-bottom: 50px; */
+}
+header .container {
+	padding: 30px 30px 0px;
 }
 header label {
 	font-size: 25px;
@@ -657,11 +659,11 @@ tr + tr td label:after{
 	color: #337ab7;
 }
 .ps-table {
-	margin: 80px;
-    border-radius: 20px;
-    border-width: 5px;
-    border-style: dotted;
-    border-color: red;
+	padding: 80px;
+    /* border-radius: 20px; */
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
 }
 @media screen and (max-width:767px) {
 	.container h2 {
@@ -711,6 +713,21 @@ tr + tr td label:after{
 }
 .content-item .btn-join label {
 	font-size: 12px;
+}
+.content-item .client-review {
+	border: 10px solid #e9ebee;
+    padding: 10px;
+	margin: 50px 15px 0 15px;
+	text-align: left;
+}
+.content-item .client-review h3 {
+	color: #20468e;
+    font-size: 16px;
+	font-weight: 600;
+	line-height: 1.1;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: left;
 }
 /*===========================
 ===========================*/
